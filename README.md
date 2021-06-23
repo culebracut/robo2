@@ -63,6 +63,10 @@ install pip
 
 GITHUB ROBO
 ===========
+# set git permissions
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
 # python code for robot
 git clone https://github.com/culebracut/robo2.git
 
