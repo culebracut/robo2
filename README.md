@@ -25,7 +25,7 @@ v4l2-ctl --list-devices
 v4l2-ctl -d /dev/video0 --list-formats-ext
 
 MICROSOFT VSCODE
-======
+================
 https://code.visualstudio.com/download
 cd ~/Downloads
 sudo apt install ./code_1.57.1-1623936438_arm64.deb
@@ -42,6 +42,7 @@ prompt for location ~/workspace/robo2
 TESTING
 =======
 # display usb webcam on video1 : fakesync and monitor
+gst-launch-1.0 v4l2src ! xvimagesink
 gst-launch-1.0 -v v4l2src device=/dev/video1 ! fakesink
 gst-launch-1.0 -v v4l2src device=/dev/video1 ! xvimagesink
 # display csi camera on monitor
