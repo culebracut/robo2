@@ -40,10 +40,11 @@ sudo apt install ./code_1.57.1-1623936438_arm64.deb
 code
 
 # install python
-sudo apt install python3-pip
 
 PIP
 ===
+sudo apt install python3-pip
+pip3 list
 
 GITHUB
 ======

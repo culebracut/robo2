@@ -1,0 +1,8 @@
+# pip install Adafruit-MotorHAT
+Adafruit-MotorHAT 1.4.0
+
+# pip install traitlets
+traitlets 5.0.5
+
+# pip install evdev
+evdev 1.4.0

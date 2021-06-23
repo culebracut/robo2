@@ -1,7 +1,7 @@
 import asyncio
 import evdev
-from evdev import InputDevice, categorize, ecodes, KeyEvent 
-from jetbot import Robot
+from evdev import InputDevice, categorize, ecodes, KeyEvent
+from jetbot.Robot import Robot
 
 """ devices = [evdev.InputDevice(path) for path in evdev.list_devices()]
 for device in devices:
