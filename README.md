@@ -2,7 +2,15 @@
 NVIDIA LINUX, JETPACK, DEEPSTREAM FLASH INSTALL
 ===============================================
 
-# flash linux, jetpack, deepstream onto bootable SD card
+# flash linux for tegra (L4T) onto bootable SD card
+https://developer.nvidia.com/jetson-nx-developer-kit-sd-card-image
+
+# jetpack
+sudo apt update
+sudo apt install nvidia-jetpack
+
+# deepstream
+
 https://docs.nvidia.com/metropolis/deepstream/dev-guide/text/DS_Quickstart.html
 https://developer.nvidia.com/deepstream-getting-started
 
