@@ -1,8 +1,17 @@
+CREATE BOOTABLE SD CARD
+=======================
 
-NVIDIA LINUX, JETPACK, DEEPSTREAM FLASH INSTALL
-===============================================
-# flash linux for tegra (L4T) onto bootable SD card
+DOWNLOAD FOR JETSON NX
+======================
 https://developer.nvidia.com/jetson-nx-developer-kit-sd-card-image
+
+DOWNLOAD FOR JETSON NANO
+========================
+???
+
+FLASH LINUX FOR TEGRA ONTO BOOTABLE SD CARD
+===========================================
+https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit
 
 JETPACK
 =======
