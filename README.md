@@ -1,11 +1,11 @@
 
 NVIDIA LINUX, JETPACK, DEEPSTREAM FLASH INSTALL
 ===============================================
-
 # flash linux for tegra (L4T) onto bootable SD card
 https://developer.nvidia.com/jetson-nx-developer-kit-sd-card-image
 
-# jetpack
+JETPACK
+=======
 sudo apt update
 sudo apt install nvidia-jetpack
 
