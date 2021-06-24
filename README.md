@@ -36,8 +36,16 @@ sudo apt-get install ./deepstream-5.1_5.1.0-1_arm64.deb
 # link  to deepstream sample configs
 ln -s /opt/nvidia/deepstream/deepstream/samples/configs/deepstream-app/  ~/myapps
 cd ~/myapps
+# usb or csi camera on video0
 deepstream-app -c source1_usb_dec_infer_resnet_int8.txt
+deepstream-app -c source1_csi_dec_infer_resnet_int8.txt
+# to exit app... alt-tab to switch windows, then ctrl-c to exit
+sudo chmod 777 myusb.txt
 
+# ds app
+cd /opt/nvidia/deepstream/deepstream/sources/apps/sample_apps/deepstream-test1
+sudo CUDA_VER=10.2 make
+./deepstream-test1-app /opt/nvidia/deepstream/deepstream/samples/streams/sample_1080p_h264.mp4
 DEPENDENCIES
 ============
 # utility for device resolution
@@ -83,8 +91,9 @@ cd ~/myapps
 # CSI camera on /dev/video0
 deepstream-app -c mycsi.txt
 # USB camera on /dev/video1
-#
-install pip
+#q
+
+
 
 MICROSOFT VSCODE
 ================
