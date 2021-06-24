@@ -46,16 +46,6 @@ sudo apt install v4l-utils
 v4l2-ctl --list-devices
 v4l2-ctl -d /dev/video0 --list-formats-ext
 
-MICROSOFT VSCODE
-================
-https://code.visualstudio.com/download
-#choose deb / arm64
-cd ~/Downloads
-sudo apt install ./code_1.57.1-1623936438_arm64.deb
-code
-
-# install python
-
 PIP
 ===
 sudo apt install python3-pip
@@ -96,6 +86,16 @@ deepstream-app -c mycsi.txt
 #
 install pip
 
+MICROSOFT VSCODE
+================
+https://code.visualstudio.com/download
+#choose deb / arm64
+cd ~/Downloads
+sudo apt install ./code_1.57.1-1623936438_arm64.deb
+code
+
+# install python
+
 GITHUB ROBO
 ===========
 # set git permissions
@@ -103,6 +103,7 @@ git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 
 # python code for robot
-git clone https://github.com/culebracut/robo2.git
+https://github.com/culebracut/robo2.git
 
+# accept trust and open
 
