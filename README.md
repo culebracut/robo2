@@ -49,6 +49,7 @@ v4l2-ctl -d /dev/video0 --list-formats-ext
 MICROSOFT VSCODE
 ================
 https://code.visualstudio.com/download
+#choose deb / arm64
 cd ~/Downloads
 sudo apt install ./code_1.57.1-1623936438_arm64.deb
 code
