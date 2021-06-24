@@ -62,6 +62,7 @@ UTILS
 =====
 sudo pip3 install jetson-stats
 sudo jtop
+# set fan speed.  note temperature difference.
 
 GITHUB
 ======
