@@ -35,6 +35,8 @@ cd ~/Downloads
 sudo apt-get install ./deepstream-5.1_5.1.0-1_arm64.deb
 # link  to deepstream sample configs
 ln -s /opt/nvidia/deepstream/deepstream/samples/configs/deepstream-app/  ~/myapps
+cd ~/myapps
+deepstream-app -c source1_usb_dec_infer_resnet_int8.txt
 
 DEPENDENCIES
 ============
