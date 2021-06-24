@@ -9,20 +9,19 @@ https://developer.nvidia.com/jetson-nx-developer-kit-sd-card-image
 sudo apt update
 sudo apt install nvidia-jetpack
 
-# deepstream
-
-https://docs.nvidia.com/metropolis/deepstream/dev-guide/text/DS_Quickstart.html
+DEEPSTREAM
+==========
+# download DS and install
 https://developer.nvidia.com/deepstream-getting-started
+cd ~/Downloads
+sudo apt-get install ./deepstream-5.1_5.1.0-1_arm64.deb
+# link  to deepstream sample configs
+ln -s /opt/nvidia/deepstream/deepstream/samples/configs/deepstream-app/  ~/
 
 UBUNTU LINUX
 ============
 # set window menus to app
 settings/appearance/bind 
-
-DEEPSTREAM
-==========
-# link  to deepstream sample configs
-ln -s /opt/nvidia/deepstream/deepstream/samples/configs/deepstream-app/  ~/
 
 DEPENDENCIES
 ============
