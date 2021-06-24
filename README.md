@@ -18,6 +18,10 @@ BOOT INTO UBUNTU LINUX
 # set window menus to app
 settings/appearance/bind 
 
+# set cpu clock and fan to max
+$ sudo nvpmodel -m 0
+$ sudo jetson_clocks
+
 JETPACK
 =======
 sudo apt update
