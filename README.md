@@ -58,6 +58,11 @@ PIP
 sudo apt install python3-pip
 pip3 list
 
+UTILS
+=====
+sudo pip3 install jetson-stats
+sudo jtop
+
 GITHUB
 ======
 # open repository from vscode
