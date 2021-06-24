@@ -13,6 +13,11 @@ FLASH LINUX FOR TEGRA ONTO BOOTABLE SD CARD
 ===========================================
 https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit
 
+BOOT INTO UBUNTU LINUX
+======================
+# set window menus to app
+settings/appearance/bind 
+
 JETPACK
 =======
 sudo apt update
@@ -25,12 +30,7 @@ https://developer.nvidia.com/deepstream-getting-started
 cd ~/Downloads
 sudo apt-get install ./deepstream-5.1_5.1.0-1_arm64.deb
 # link  to deepstream sample configs
-ln -s /opt/nvidia/deepstream/deepstream/samples/configs/deepstream-app/  ~/
-
-UBUNTU LINUX
-============
-# set window menus to app
-settings/appearance/bind 
+ln -s /opt/nvidia/deepstream/deepstream/samples/configs/deepstream-app/  ~/myapps
 
 DEPENDENCIES
 ============
